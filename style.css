@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background: #f0f2f5;
+}
+.hero {
+	background: #f0f2f5;
+}
+
+.container {
+	display: flex;
+	padding: 7rem 0rem 4.5rem 0rem;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+/* *************left side start ****************/
+.container .left {}
+
+.container .left h1 {
+	color: #1877f2;
+	font-size: 3.75rem;
+	margin-right: auto;
+}
+
+.container .left h2 {
+	font-size: 1.75rem;
+	font-weight: normal;
+	line-height: 2rem;
+	width: 31.25rem;
+	margin-right: auto;
+}
+/* *************left side end ****************/
+
+
+
+/* *************right side start ****************/
+.container .right {}
+
+.container .right .card-box {
+	background: #fff;
+	padding: 1.25rem;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	border-radius: 0.625rem;
+	margin: 2.5rem 0rem 1.25rem;
+}
+
+.container .right .card-box input,
+.login,
+.creat {
+	font-size: 1.0625rem;
+	padding: 0.875rem 1rem;
+	width: 20.625rem;
+	margin-bottom: 0.625rem;
+	border: 0.0625rem solid #dadde1;
+    border-radius: 0.625rem;
+	outline-color: #1877f2;
+}
+
+.container .right .card-box .login {
+	color: #fff;
+	background:  #318bff;
+	border: none;
+	border-radius: 0.625rem;
+	cursor: pointer;
+}
+/*****login btn hover**********/
+.container .right .card-box .login:hover {
+    background: #1877f2;
+    transition: 0.5s;
+}
+
+.container .right .card-box a {
+	text-decoration: none;
+	padding: 0.625rem;
+	position: relative;
+}
+.container .right .card-box a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.container .right .card-box .hr {
+	border-bottom: 0.0625rem solid #dadde1;
+	margin: 1.5625rem 1rem;
+	text-align: center;
+	width: 18.75rem;
+}
+
+.container .right .card-box .creat {
+	background:#47cc2c; 
+	color: #fff;
+	width: 12.5rem;
+	border: none;
+	border-radius: 0.625rem;
+	cursor: pointer;
+}
+/* **************hover************ */
+.container .right .card-box .creat:hover{
+    background:#42b72a; 
+    transition: 0.5s;
+}
+
+.container .right .card-bottom {
+	display: flex;
+	font-size: 0.875rem;
+	justify-content: center;
+	color: #000;
+}
+
+.container .right .card-bottom a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	padding-right: 0.3125rem;
+}
+
+
+.container .right p {}
+
+/* *************right side end ****************/
+
+/*---------------------language section----------- */
+
+.hero .lang {
+	max-width: 61.25rem;
+	margin: auto;
+}
+
+.hero .lang ul {
+	display: flex;
+	font-size: 0.75rem;
+	list-style: none;
+	flex-flow: row wrap;
+}
+
+.hero .lang ul li {
+	padding: 0.3125rem;
+}
+
+.hero .lang ul li a {
+	text-decoration: none;
+	color: #8a8d91;
+}
+/******hover********---*/
+.hero .lang ul li a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.hero .lang ul li a i {
+	border: 0.0625rem solid #8a8d91;
+	padding: 0.125rem 0.375rem;
+	font-weight: 900;
+}
+
+.hero .lang .hr2 {
+	border-bottom: 0.0625rem solid #dddfe2;
+	font-size: 0.0625rem;
+	height: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+/* *************copy right side start ****************/
+.hero .lang .copyright {}
+
+.hero .lang .copyright h3 {
+	color: #8a8d91;
+	font-size: 0.75rem;
+	padding: 1.25rem 0rem;
+	font-weight: 100;
+}
